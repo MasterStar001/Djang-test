@@ -1,0 +1,69 @@
+{% extends 'bash.html' %}
+
+
+{%block head%}
+<title>iPortfolio - Experience</title>
+<style>
+  :root {
+    --blue:#0a192f }
+  body {
+    background-color: var(--blue);
+  }
+.box {
+  display:block;
+  margin: auto;
+  width: 100%;
+  height:100vh;
+  padding: 10px auto;
+}
+.box1{
+padding-top: 50px;
+display: block;
+margin: auto;
+width: 80%;
+}
+#id1{
+  display: block;
+  color:  #a8b2d1;
+  font-size: 4rem;
+  margin: 3px;
+  width: 80%;
+  font-weight: bold;
+  user-select: none;
+}
+#p{
+  display:block;
+  margin:auto;
+  width:80%;
+  font-size:20px;
+  color: #a8b2d1;;
+}
+
+</style>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+    {%endblock head%}
+
+{%block body%}
+
+
+<!-- carousel -->
+
+<div class="box" class="carousel slide" data-ride="carousel">
+ 
+    <div class="box1">
+      <div id="id1"> Freelancer </div>
+    <div id="p_box">
+      <div id="p">Looking for an experienced freelance designer or developer? I'm Mahesh Sharma Expert and UI/UX Designer with in web, mobile, and print. My portfolio is filled with glowing reviews- a testament to the quality of my work. Get in touch today and make your project the next success story!</div>
+       
+  </div>
+      </div>
+    </div>
+  
+  
+    {%endblock body%}
